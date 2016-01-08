@@ -1,0 +1,34 @@
+{
+  "name": "SLDS-icon-fonts",
+  "version": "0.0.1",
+  "description": "Icon-font version of Salesforce Lighting Design System SVGs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeScience/SLDS-icon-fonts.git"
+  },
+  "keywords": [
+    "SLDS",
+    "icon-fonts"
+  ],
+  "author": "Matthew Turnure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeScience/SLDS-icon-fonts/issues"
+  },
+  "homepage": "https://github.com/CodeScience/SLDS-icon-fonts",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0"
+  }
+}

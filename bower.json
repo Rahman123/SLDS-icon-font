@@ -1,0 +1,26 @@
+{
+  "name": "SLDS-icon-fonts",
+  "description": "Icon-font version of Salesforce Lighting Design System SVGs",
+  "main": "index.js",
+  "authors": [
+    "Matthew Turnure"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "SLDS",
+    "icon-fonts"
+  ],
+  "homepage": "https://github.com/CodeScience/SLDS-icon-fonts",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "salesforce-lightning-design-system": "~0.12.1"
+  }
+}
