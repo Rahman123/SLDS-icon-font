@@ -1,1 +1,8 @@
-@import "../../../bower_components/salesforce-lightning-design-system/scss/index.scss"
+@import "../../../bower_components/salesforce-lightning-design-system/scss/index.scss";
+
+@import "slds-icon-fonts";
+@import "typography";
+
+[class^="sldsicon-"], [class*=" sldsicon-"] {
+    font-size: 2rem;
+}

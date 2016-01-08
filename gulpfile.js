@@ -32,11 +32,16 @@ gulp.task('assets', function () {
         .pipe(gulp.dest('dist/assets'));
 });
 
+gulp.task('icon-fonts', function () {
+    return gulp.src('src/assets/icon-fonts/**/*')
+        .pipe(gulp.dest('dist/assets/icon-fonts'));
+});
+
 gulp.task('clean', function (cb) {
     del(['dist'], cb);
 });
 
-gulp.task('build', ['html', 'assets', 'styles']);
+gulp.task('build', ['html', 'assets', 'icon-fonts', 'styles']);
 
 gulp.task('default', ['build']);
 
