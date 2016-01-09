@@ -1,0 +1,14 @@
+<div ng-click="selectText(obj)">
+
+    <!-- if obj.category === doctype -->
+    <span class="icon sldsicon-{{ obj.category }}-{{ obj.name }}"
+        ng-if="obj.category === 'doctype'">
+        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4" ng-if="obj.paths === 4 || obj.paths === 5"></span><span class="path5" ng-if="obj.paths === 5"></span>
+    </span>
+
+    <i class="icon sldsicon-{{ obj.category }}-{{ obj.name }}"
+        ng-if="obj.category !== 'doctype'"></i>
+
+    <input class="icon-input" readonly="readonly"
+        ng-model="obj.input">
+</div>
