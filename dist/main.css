@@ -6680,8 +6680,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 /* Lightning Design System 0.12.1 */
 @font-face {
   font-family: 'slds';
-  src: url("/assets/icon-fonts/slds.eot?4xeykr");
-  src: url("/assets/icon-fonts/slds.eot?4xeykr#iefix") format("embedded-opentype"), url("/assets/icon-fonts/slds.ttf?4xeykr") format("truetype"), url("/assets/icon-fonts/slds.woff?4xeykr") format("woff"), url("/assets/icon-fonts/slds.svg?4xeykr#slds") format("svg");
+  src: url("assets/icon-fonts/slds.eot?4xeykr");
+  src: url("assets/icon-fonts/slds.eot?4xeykr#iefix") format("embedded-opentype"), url("assets/icon-fonts/slds.ttf?4xeykr") format("truetype"), url("assets/icon-fonts/slds.woff?4xeykr") format("woff"), url("assets/icon-fonts/slds.svg?4xeykr#slds") format("svg");
   font-weight: normal;
   font-style: normal; }
 
