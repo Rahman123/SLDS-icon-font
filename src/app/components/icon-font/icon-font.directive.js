@@ -21,11 +21,12 @@
             scope.copyText = copyText;
 
             function copyText() {
+                $input.select();
+
                 if (typeof document.execCommand !== 'function') {
                     return;
                 }
 
-                $input.select();
                 document.execCommand('copy');
                 popMessage();
             }
