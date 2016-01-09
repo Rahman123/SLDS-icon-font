@@ -328,11 +328,17 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
             scope.obj.input = 'sldsicon-' + scope.obj.category + '-' + scope.obj.name;
 
-            scope.copyText = function () {
+            scope.copyText = copyText;
+
+            function copyText() {
+                if (typeof document.execCommand !== 'function') {
+                    return;
+                }
+
                 $input.select();
                 document.execCommand('copy');
                 popMessage();
-            };
+            }
 
             function popMessage() {
                 element.addClass('active');
