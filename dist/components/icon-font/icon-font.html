@@ -1,4 +1,4 @@
-<div ng-click="selectText(obj)">
+<div ng-click="copyText(obj)">
 
     <!-- if obj.category === doctype -->
     <span class="icon sldsicon-{{ obj.category }}-{{ obj.name }}"
@@ -11,4 +11,9 @@
 
     <input class="icon-input" readonly="readonly"
         ng-model="obj.input">
+
+    <div class="icon-tooltip slds-popover slds-nubbin--top" role="dialog"
+        ng-class="hasClicked ? 'active' : ''">
+        <div class="slds-popover__body">Copied to your clipboard!</div>
+    </div>
 </div>
