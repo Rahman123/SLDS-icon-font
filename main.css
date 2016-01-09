@@ -9187,6 +9187,9 @@ html {
   text-align: center; }
   .icon-container .icon {
     display: block; }
+  .icon-container.active .icon-tooltip {
+    opacity: 1;
+    visibility: visible; }
 
 .icon {
   font-size: 3rem;
@@ -9201,3 +9204,9 @@ html {
   padding: .5rem;
   text-align: center;
   width: 220px; }
+
+.icon-tooltip {
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out; }

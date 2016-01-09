@@ -314,7 +314,7 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
     angular.module('app')
         .directive('iconFont', iconFont);
 
-    function iconFont($log) {
+    function iconFont($log, $timeout) {
         return {
             scope: {
                 obj: '='
@@ -328,8 +328,18 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 
             scope.obj.input = 'sldsicon-' + scope.obj.category + '-' + scope.obj.name;
 
-            scope.selectText = function () {
+            scope.copyText = function () {
                 $input.select();
+                document.execCommand('copy');
+                popMessage();
+            };
+
+            function popMessage() {
+                element.addClass('active');
+
+                $timeout(function () {
+                    element.removeClass('active');
+                }, 1000);
             }
         }
     }
