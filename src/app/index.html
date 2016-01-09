@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>SLDS Icon Fonts</title>
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body role="document" ng-controller="AppController">
+        <main class="slds-m-around--xx-large">
+            <h1 class="slds-text-heading--large">SLDS Icon Fonts</h1>
+
+            <article class="icon-group" id="{{ group.icons[0].category }}"
+                  ng-repeat="group in iconGroup">
+                  <h2 class="slds-text-heading--medium slds-m-vertical--large">{{ group.category }}</h2>
+                  <div class="slds-grid slds-wrap">
+                        <div class="icon-container slds-col"
+                              icon-font
+                              obj="icon"
+                              ng-repeat="icon in group.icons"></div>
+                  </div>
+            </article>
+        </main>
+
+        <script src="/dev/app.js"></script>
+    </body>
+</html>

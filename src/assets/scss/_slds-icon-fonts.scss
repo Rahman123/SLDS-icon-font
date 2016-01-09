@@ -12,7 +12,9 @@
 [class^="sldsicon-"], [class*=" sldsicon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'slds' !important;
+    display: inline-block;
     speak: none;
+    font-size: 2em;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -22,6 +24,12 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+%sldsicon-default-bg {
+    background-color: rgb(129, 153, 175);
+    color: #fff;
+    border-radius: 4px;
 }
 
 .sldsicon-action-add_contact:before {
@@ -538,303 +546,403 @@
     content: "\e8aa";
 }
 .sldsicon-custom-custom1:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ab";
 }
 .sldsicon-custom-custom2:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ac";
 }
 .sldsicon-custom-custom3:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ad";
 }
 .sldsicon-custom-custom4:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ae";
 }
 .sldsicon-custom-custom5:before {
+    @extend %sldsicon-default-bg;
     content: "\e8af";
 }
 .sldsicon-custom-custom6:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b0";
 }
 .sldsicon-custom-custom7:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b1";
 }
 .sldsicon-custom-custom8:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b2";
 }
 .sldsicon-custom-custom9:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b3";
 }
 .sldsicon-custom-custom10:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b4";
 }
 .sldsicon-custom-custom11:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b5";
 }
 .sldsicon-custom-custom12:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b6";
 }
 .sldsicon-custom-custom13:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b7";
 }
 .sldsicon-custom-custom14:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b8";
 }
 .sldsicon-custom-custom15:before {
+    @extend %sldsicon-default-bg;
     content: "\e8b9";
 }
 .sldsicon-custom-custom16:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ba";
 }
 .sldsicon-custom-custom17:before {
+    @extend %sldsicon-default-bg;
     content: "\e8bb";
 }
 .sldsicon-custom-custom18:before {
+    @extend %sldsicon-default-bg;
     content: "\e8bc";
 }
 .sldsicon-custom-custom19:before {
+    @extend %sldsicon-default-bg;
     content: "\e8bd";
 }
 .sldsicon-custom-custom20:before {
+    @extend %sldsicon-default-bg;
     content: "\e8be";
 }
 .sldsicon-custom-custom21:before {
+    @extend %sldsicon-default-bg;
     content: "\e8bf";
 }
 .sldsicon-custom-custom22:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c0";
 }
 .sldsicon-custom-custom23:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c1";
 }
 .sldsicon-custom-custom24:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c2";
 }
 .sldsicon-custom-custom25:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c3";
 }
 .sldsicon-custom-custom26:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c4";
 }
 .sldsicon-custom-custom27:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c5";
 }
 .sldsicon-custom-custom28:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c6";
 }
 .sldsicon-custom-custom29:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c7";
 }
 .sldsicon-custom-custom30:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c8";
 }
 .sldsicon-custom-custom31:before {
+    @extend %sldsicon-default-bg;
     content: "\e8c9";
 }
 .sldsicon-custom-custom32:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ca";
 }
 .sldsicon-custom-custom33:before {
+    @extend %sldsicon-default-bg;
     content: "\e8cb";
 }
 .sldsicon-custom-custom34:before {
+    @extend %sldsicon-default-bg;
     content: "\e8cc";
 }
 .sldsicon-custom-custom35:before {
+    @extend %sldsicon-default-bg;
     content: "\e8cd";
 }
 .sldsicon-custom-custom36:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ce";
 }
 .sldsicon-custom-custom37:before {
+    @extend %sldsicon-default-bg;
     content: "\e8cf";
 }
 .sldsicon-custom-custom38:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d0";
 }
 .sldsicon-custom-custom39:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d1";
 }
 .sldsicon-custom-custom40:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d2";
 }
 .sldsicon-custom-custom41:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d3";
 }
 .sldsicon-custom-custom42:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d4";
 }
 .sldsicon-custom-custom43:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d5";
 }
 .sldsicon-custom-custom44:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d6";
 }
 .sldsicon-custom-custom45:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d7";
 }
 .sldsicon-custom-custom46:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d8";
 }
 .sldsicon-custom-custom47:before {
+    @extend %sldsicon-default-bg;
     content: "\e8d9";
 }
 .sldsicon-custom-custom48:before {
+    @extend %sldsicon-default-bg;
     content: "\e8da";
 }
 .sldsicon-custom-custom49:before {
+    @extend %sldsicon-default-bg;
     content: "\e8db";
 }
 .sldsicon-custom-custom50:before {
+    @extend %sldsicon-default-bg;
     content: "\e8dc";
 }
 .sldsicon-custom-custom51:before {
+    @extend %sldsicon-default-bg;
     content: "\e8dd";
 }
 .sldsicon-custom-custom52:before {
+    @extend %sldsicon-default-bg;
     content: "\e8de";
 }
 .sldsicon-custom-custom53:before {
+    @extend %sldsicon-default-bg;
     content: "\e8df";
 }
 .sldsicon-custom-custom54:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e0";
 }
 .sldsicon-custom-custom55:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e1";
 }
 .sldsicon-custom-custom56:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e2";
 }
 .sldsicon-custom-custom57:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e3";
 }
 .sldsicon-custom-custom58:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e4";
 }
 .sldsicon-custom-custom59:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e5";
 }
 .sldsicon-custom-custom60:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e6";
 }
 .sldsicon-custom-custom61:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e7";
 }
 .sldsicon-custom-custom62:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e8";
 }
 .sldsicon-custom-custom63:before {
+    @extend %sldsicon-default-bg;
     content: "\e8e9";
 }
 .sldsicon-custom-custom64:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ea";
 }
 .sldsicon-custom-custom65:before {
+    @extend %sldsicon-default-bg;
     content: "\e8eb";
 }
 .sldsicon-custom-custom66:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ec";
 }
 .sldsicon-custom-custom67:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ed";
 }
 .sldsicon-custom-custom68:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ee";
 }
 .sldsicon-custom-custom69:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ef";
 }
 .sldsicon-custom-custom70:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f0";
 }
 .sldsicon-custom-custom71:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f1";
 }
 .sldsicon-custom-custom72:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f2";
 }
 .sldsicon-custom-custom73:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f3";
 }
 .sldsicon-custom-custom74:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f4";
 }
 .sldsicon-custom-custom75:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f5";
 }
 .sldsicon-custom-custom76:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f6";
 }
 .sldsicon-custom-custom77:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f7";
 }
 .sldsicon-custom-custom78:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f8";
 }
 .sldsicon-custom-custom79:before {
+    @extend %sldsicon-default-bg;
     content: "\e8f9";
 }
 .sldsicon-custom-custom80:before {
+    @extend %sldsicon-default-bg;
     content: "\e8fa";
 }
 .sldsicon-custom-custom81:before {
+    @extend %sldsicon-default-bg;
     content: "\e8fb";
 }
 .sldsicon-custom-custom82:before {
+    @extend %sldsicon-default-bg;
     content: "\e8fc";
 }
 .sldsicon-custom-custom83:before {
+    @extend %sldsicon-default-bg;
     content: "\e8fd";
 }
 .sldsicon-custom-custom84:before {
+    @extend %sldsicon-default-bg;
     content: "\e8fe";
 }
 .sldsicon-custom-custom85:before {
+    @extend %sldsicon-default-bg;
     content: "\e8ff";
 }
 .sldsicon-custom-custom86:before {
+    @extend %sldsicon-default-bg;
     content: "\e900";
 }
 .sldsicon-custom-custom87:before {
+    @extend %sldsicon-default-bg;
     content: "\e901";
 }
 .sldsicon-custom-custom88:before {
+    @extend %sldsicon-default-bg;
     content: "\e902";
 }
 .sldsicon-custom-custom89:before {
+    @extend %sldsicon-default-bg;
     content: "\e903";
 }
 .sldsicon-custom-custom90:before {
+    @extend %sldsicon-default-bg;
     content: "\e904";
 }
 .sldsicon-custom-custom91:before {
+    @extend %sldsicon-default-bg;
     content: "\e905";
 }
 .sldsicon-custom-custom92:before {
+    @extend %sldsicon-default-bg;
     content: "\e906";
 }
 .sldsicon-custom-custom93:before {
+    @extend %sldsicon-default-bg;
     content: "\e907";
 }
 .sldsicon-custom-custom94:before {
+    @extend %sldsicon-default-bg;
     content: "\e908";
 }
 .sldsicon-custom-custom95:before {
+    @extend %sldsicon-default-bg;
     content: "\e909";
 }
 .sldsicon-custom-custom96:before {
+    @extend %sldsicon-default-bg;
     content: "\e90a";
 }
 .sldsicon-custom-custom97:before {
+    @extend %sldsicon-default-bg;
     content: "\e90b";
 }
 .sldsicon-custom-custom98:before {
+    @extend %sldsicon-default-bg;
     content: "\e90c";
 }
 .sldsicon-custom-custom99:before {
+    @extend %sldsicon-default-bg;
     content: "\e90d";
 }
 .sldsicon-custom-custom100:before {
+    @extend %sldsicon-default-bg;
     content: "\e90e";
 }
 .sldsicon-doctype-ai .path1:before {
@@ -1494,816 +1602,1087 @@
     color: rgb(255, 255, 255);
 }
 .sldsicon-standard-account:before {
+    @extend %sldsicon-default-bg;
     content: "\e999";
 }
 .sldsicon-standard-announcement:before {
+    @extend %sldsicon-default-bg;
     content: "\e99a";
 }
 .sldsicon-standard-answer_best:before {
+    @extend %sldsicon-default-bg;
     content: "\e99b";
 }
 .sldsicon-standard-answer_private:before {
+    @extend %sldsicon-default-bg;
     content: "\e99c";
 }
 .sldsicon-standard-answer_public:before {
+    @extend %sldsicon-default-bg;
     content: "\e99d";
 }
 .sldsicon-standard-approval:before {
+    @extend %sldsicon-default-bg;
     content: "\e99e";
 }
 .sldsicon-standard-apps_admin:before {
+    @extend %sldsicon-default-bg;
     content: "\e99f";
 }
 .sldsicon-standard-apps:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a0";
 }
 .sldsicon-standard-article:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a1";
 }
 .sldsicon-standard-avatar_loading:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a2";
 }
 .sldsicon-standard-avatar:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a3";
 }
 .sldsicon-standard-calibration:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a4";
 }
 .sldsicon-standard-call_history:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a5";
 }
 .sldsicon-standard-call:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a6";
 }
 .sldsicon-standard-campaign_members:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a7";
 }
 .sldsicon-standard-campaign:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a8";
 }
 .sldsicon-standard-canvas:before {
+    @extend %sldsicon-default-bg;
     content: "\e9a9";
 }
 .sldsicon-standard-case_change_status:before {
+    @extend %sldsicon-default-bg;
     content: "\e9aa";
 }
 .sldsicon-standard-case_comment:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ab";
 }
 .sldsicon-standard-case_email:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ac";
 }
 .sldsicon-standard-case_log_a_call:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ad";
 }
 .sldsicon-standard-case_transcript:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ae";
 }
 .sldsicon-standard-case:before {
+    @extend %sldsicon-default-bg;
     content: "\e9af";
 }
 .sldsicon-standard-client:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b0";
 }
 .sldsicon-standard-coaching:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b1";
 }
 .sldsicon-standard-connected_apps:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b2";
 }
 .sldsicon-standard-contact:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b3";
 }
 .sldsicon-standard-contract:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b4";
 }
 .sldsicon-standard-custom:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b5";
 }
 .sldsicon-standard-dashboard:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b6";
 }
 .sldsicon-standard-default:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b7";
 }
 .sldsicon-standard-document:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b8";
 }
 .sldsicon-standard-drafts:before {
+    @extend %sldsicon-default-bg;
     content: "\e9b9";
 }
 .sldsicon-standard-email_chatter:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ba";
 }
 .sldsicon-standard-email:before {
+    @extend %sldsicon-default-bg;
     content: "\e9bb";
 }
 .sldsicon-standard-empty:before {
+    @extend %sldsicon-default-bg;
     content: "\e9bc";
 }
 .sldsicon-standard-endorsement:before {
+    @extend %sldsicon-default-bg;
     content: "\e9bd";
 }
 .sldsicon-standard-environment_hub:before {
+    @extend %sldsicon-default-bg;
     content: "\e9be";
 }
 .sldsicon-standard-event:before {
+    @extend %sldsicon-default-bg;
     content: "\e9bf";
 }
 .sldsicon-standard-feed:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c0";
 }
 .sldsicon-standard-feedback:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c1";
 }
 .sldsicon-standard-file:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c2";
 }
 .sldsicon-standard-flow:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c3";
 }
 .sldsicon-standard-generic_loading:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c4";
 }
 .sldsicon-standard-goals:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c5";
 }
 .sldsicon-standard-group_loading:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c6";
 }
 .sldsicon-standard-groups:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c7";
 }
 .sldsicon-standard-home:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c8";
 }
 .sldsicon-standard-household:before {
+    @extend %sldsicon-default-bg;
     content: "\e9c9";
 }
 .sldsicon-standard-insights:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ca";
 }
 .sldsicon-standard-investment_account:before {
+    @extend %sldsicon-default-bg;
     content: "\e9cb";
 }
 .sldsicon-standard-lead:before {
+    @extend %sldsicon-default-bg;
     content: "\e9cc";
 }
 .sldsicon-standard-link:before {
+    @extend %sldsicon-default-bg;
     content: "\e9cd";
 }
 .sldsicon-standard-log_a_call:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ce";
 }
 .sldsicon-standard-marketing_actions:before {
+    @extend %sldsicon-default-bg;
     content: "\e9cf";
 }
 .sldsicon-standard-marketing_resources:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d0";
 }
 .sldsicon-standard-metrics:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d1";
 }
 .sldsicon-standard-news:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d2";
 }
 .sldsicon-standard-note:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d3";
 }
 .sldsicon-standard-opportunity:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d4";
 }
 .sldsicon-standard-orders:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d5";
 }
 .sldsicon-standard-people:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d6";
 }
 .sldsicon-standard-performance:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d7";
 }
 .sldsicon-standard-photo:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d8";
 }
 .sldsicon-standard-poll:before {
+    @extend %sldsicon-default-bg;
     content: "\e9d9";
 }
 .sldsicon-standard-portal:before {
+    @extend %sldsicon-default-bg;
     content: "\e9da";
 }
 .sldsicon-standard-post:before {
+    @extend %sldsicon-default-bg;
     content: "\e9db";
 }
 .sldsicon-standard-pricebook:before {
+    @extend %sldsicon-default-bg;
     content: "\e9dc";
 }
 .sldsicon-standard-process:before {
+    @extend %sldsicon-default-bg;
     content: "\e9dd";
 }
 .sldsicon-standard-product:before {
+    @extend %sldsicon-default-bg;
     content: "\e9de";
 }
 .sldsicon-standard-question_best:before {
+    @extend %sldsicon-default-bg;
     content: "\e9df";
 }
 .sldsicon-standard-question_feed:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e0";
 }
 .sldsicon-standard-quotes:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e1";
 }
 .sldsicon-standard-recent:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e2";
 }
 .sldsicon-standard-record:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e3";
 }
 .sldsicon-standard-related_list:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e4";
 }
 .sldsicon-standard-report:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e5";
 }
 .sldsicon-standard-reward:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e6";
 }
 .sldsicon-standard-scan_card:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e7";
 }
 .sldsicon-standard-skill_entity:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e8";
 }
 .sldsicon-standard-social:before {
+    @extend %sldsicon-default-bg;
     content: "\e9e9";
 }
 .sldsicon-standard-solution:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ea";
 }
 .sldsicon-standard-sossession:before {
+    @extend %sldsicon-default-bg;
     content: "\e9eb";
 }
 .sldsicon-standard-task:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ec";
 }
 .sldsicon-standard-task2:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ed";
 }
 .sldsicon-standard-team_member:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ee";
 }
 .sldsicon-standard-thanks_loading:before {
+    @extend %sldsicon-default-bg;
     content: "\e9ef";
 }
 .sldsicon-standard-thanks:before {
+    @extend %sldsicon-default-bg;
     content: "\e9f0";
 }
 .sldsicon-standard-today:before {
+    @extend %sldsicon-default-bg;
     content: "\e9f1";
 }
 .sldsicon-standard-topic:before {
+    @extend %sldsicon-default-bg;
     content: "\e9f2";
 }
 .sldsicon-standard-unmatched:before {
+    @extend %sldsicon-default-bg;
     content: "\e9f3";
 }
 .sldsicon-standard-user:before {
+    @extend %sldsicon-default-bg;
     content: "\e9f4";
 }
 .sldsicon-utility-add:before {
+    color: $color-text-icon-default;
     content: "\e9f5";
 }
 .sldsicon-utility-adduser:before {
+    color: $color-text-icon-default;
     content: "\e9f6";
 }
 .sldsicon-utility-announcement:before {
+    color: $color-text-icon-default;
     content: "\e9f7";
 }
 .sldsicon-utility-apps:before {
+    color: $color-text-icon-default;
     content: "\e9f8";
 }
 .sldsicon-utility-arrowdown:before {
+    color: $color-text-icon-default;
     content: "\e9f9";
 }
 .sldsicon-utility-arrowup:before {
+    color: $color-text-icon-default;
     content: "\e9fa";
 }
 .sldsicon-utility-attach:before {
+    color: $color-text-icon-default;
     content: "\e9fb";
 }
 .sldsicon-utility-back:before {
+    color: $color-text-icon-default;
     content: "\e9fc";
 }
 .sldsicon-utility-ban:before {
+    color: $color-text-icon-default;
     content: "\e9fd";
 }
 .sldsicon-utility-bold:before {
+    color: $color-text-icon-default;
     content: "\e9fe";
 }
 .sldsicon-utility-bookmark:before {
+    color: $color-text-icon-default;
     content: "\e9ff";
 }
 .sldsicon-utility-brush:before {
+    color: $color-text-icon-default;
     content: "\ea00";
 }
 .sldsicon-utility-bucket:before {
+    color: $color-text-icon-default;
     content: "\ea01";
 }
 .sldsicon-utility-builder:before {
+    color: $color-text-icon-default;
     content: "\ea02";
 }
 .sldsicon-utility-call:before {
+    color: $color-text-icon-default;
     content: "\ea03";
 }
 .sldsicon-utility-capslock:before {
+    color: $color-text-icon-default;
     content: "\ea04";
 }
 .sldsicon-utility-cases:before {
+    color: $color-text-icon-default;
     content: "\ea05";
 }
 .sldsicon-utility-center_align_text:before {
+    color: $color-text-icon-default;
     content: "\ea06";
 }
 .sldsicon-utility-chart:before {
+    color: $color-text-icon-default;
     content: "\ea07";
 }
 .sldsicon-utility-chat:before {
+    color: $color-text-icon-default;
     content: "\ea08";
 }
 .sldsicon-utility-check:before {
+    color: $color-text-icon-default;
     content: "\ea09";
 }
 .sldsicon-utility-checkin:before {
+    color: $color-text-icon-default;
     content: "\ea0a";
 }
 .sldsicon-utility-chevrondown:before {
+    color: $color-text-icon-default;
     content: "\ea0b";
 }
 .sldsicon-utility-chevronleft:before {
+    color: $color-text-icon-default;
     content: "\ea0c";
 }
 .sldsicon-utility-chevronright:before {
+    color: $color-text-icon-default;
     content: "\ea0d";
 }
 .sldsicon-utility-chevronup:before {
+    color: $color-text-icon-default;
     content: "\ea0e";
 }
 .sldsicon-utility-clear:before {
+    color: $color-text-icon-default;
     content: "\ea0f";
 }
 .sldsicon-utility-clock:before {
+    color: $color-text-icon-default;
     content: "\ea10";
 }
 .sldsicon-utility-close:before {
+    color: $color-text-icon-default;
     content: "\ea11";
 }
 .sldsicon-utility-comments:before {
+    color: $color-text-icon-default;
     content: "\ea12";
 }
 .sldsicon-utility-company:before {
+    color: $color-text-icon-default;
     content: "\ea13";
 }
 .sldsicon-utility-connected_apps:before {
+    color: $color-text-icon-default;
     content: "\ea14";
 }
 .sldsicon-utility-contract_alt:before {
+    color: $color-text-icon-default;
     content: "\ea15";
 }
 .sldsicon-utility-contract:before {
+    color: $color-text-icon-default;
     content: "\ea16";
 }
 .sldsicon-utility-copy:before {
+    color: $color-text-icon-default;
     content: "\ea17";
 }
 .sldsicon-utility-crossfilter:before {
+    color: $color-text-icon-default;
     content: "\ea18";
 }
 .sldsicon-utility-custom_apps:before {
+    color: $color-text-icon-default;
     content: "\ea19";
 }
 .sldsicon-utility-cut:before {
+    color: $color-text-icon-default;
     content: "\ea1a";
 }
 .sldsicon-utility-dash:before {
+    color: $color-text-icon-default;
     content: "\ea1b";
 }
 .sldsicon-utility-dayview:before {
+    color: $color-text-icon-default;
     content: "\ea1c";
 }
 .sldsicon-utility-delete:before {
+    color: $color-text-icon-default;
     content: "\ea1d";
 }
 .sldsicon-utility-deprecate:before {
+    color: $color-text-icon-default;
     content: "\ea1e";
 }
 .sldsicon-utility-desktop:before {
+    color: $color-text-icon-default;
     content: "\ea1f";
 }
 .sldsicon-utility-down:before {
+    color: $color-text-icon-default;
     content: "\ea20";
 }
 .sldsicon-utility-download:before {
+    color: $color-text-icon-default;
     content: "\ea21";
 }
 .sldsicon-utility-edit:before {
+    color: $color-text-icon-default;
     content: "\ea22";
 }
 .sldsicon-utility-email:before {
+    color: $color-text-icon-default;
     content: "\ea23";
 }
 .sldsicon-utility-end_call:before {
+    color: $color-text-icon-default;
     content: "\ea24";
 }
 .sldsicon-utility-erect_window:before {
+    color: $color-text-icon-default;
     content: "\ea25";
 }
 .sldsicon-utility-error:before {
+    color: $color-text-icon-default;
     content: "\ea26";
 }
 .sldsicon-utility-event:before {
+    color: $color-text-icon-default;
     content: "\ea27";
 }
 .sldsicon-utility-expand_alt:before {
+    color: $color-text-icon-default;
     content: "\ea28";
 }
 .sldsicon-utility-expand:before {
+    color: $color-text-icon-default;
     content: "\ea29";
 }
 .sldsicon-utility-favorite:before {
+    color: $color-text-icon-default;
     content: "\ea2a";
 }
 .sldsicon-utility-filter:before {
+    color: $color-text-icon-default;
     content: "\ea2b";
 }
 .sldsicon-utility-filterList:before {
+    color: $color-text-icon-default;
     content: "\ea2c";
 }
 .sldsicon-utility-forward:before {
+    color: $color-text-icon-default;
     content: "\ea2d";
 }
 .sldsicon-utility-frozen:before {
+    color: $color-text-icon-default;
     content: "\ea2e";
 }
 .sldsicon-utility-groups:before {
+    color: $color-text-icon-default;
     content: "\ea2f";
 }
 .sldsicon-utility-help:before {
+    color: $color-text-icon-default;
     content: "\ea30";
 }
 .sldsicon-utility-home:before {
+    color: $color-text-icon-default;
     content: "\ea31";
 }
 .sldsicon-utility-identity:before {
+    color: $color-text-icon-default;
     content: "\ea32";
 }
 .sldsicon-utility-image:before {
+    color: $color-text-icon-default;
     content: "\ea33";
 }
 .sldsicon-utility-inbox:before {
+    color: $color-text-icon-default;
     content: "\ea34";
 }
 .sldsicon-utility-info:before {
+    color: $color-text-icon-default;
     content: "\ea35";
 }
 .sldsicon-utility-insert_tag_field:before {
+    color: $color-text-icon-default;
     content: "\ea36";
 }
 .sldsicon-utility-insert_template:before {
+    color: $color-text-icon-default;
     content: "\ea37";
 }
 .sldsicon-utility-italic:before {
+    color: $color-text-icon-default;
     content: "\ea38";
 }
 .sldsicon-utility-justify_text:before {
+    color: $color-text-icon-default;
     content: "\ea39";
 }
 .sldsicon-utility-kanban:before {
+    color: $color-text-icon-default;
     content: "\ea3a";
 }
 .sldsicon-utility-knowledge_base:before {
+    color: $color-text-icon-default;
     content: "\ea3b";
 }
 .sldsicon-utility-layout:before {
+    color: $color-text-icon-default;
     content: "\ea3c";
 }
 .sldsicon-utility-left_align_text:before {
+    color: $color-text-icon-default;
     content: "\ea3d";
 }
 .sldsicon-utility-left:before {
+    color: $color-text-icon-default;
     content: "\ea3e";
 }
 .sldsicon-utility-like:before {
+    color: $color-text-icon-default;
     content: "\ea3f";
 }
 .sldsicon-utility-link:before {
+    color: $color-text-icon-default;
     content: "\ea40";
 }
 .sldsicon-utility-list:before {
+    color: $color-text-icon-default;
     content: "\ea41";
 }
 .sldsicon-utility-location:before {
+    color: $color-text-icon-default;
     content: "\ea42";
 }
 .sldsicon-utility-lock:before {
+    color: $color-text-icon-default;
     content: "\ea43";
 }
 .sldsicon-utility-logout:before {
+    color: $color-text-icon-default;
     content: "\ea44";
 }
 .sldsicon-utility-magicwand:before {
+    color: $color-text-icon-default;
     content: "\ea45";
 }
 .sldsicon-utility-matrix:before {
+    color: $color-text-icon-default;
     content: "\ea46";
 }
 .sldsicon-utility-minimize_window:before {
+    color: $color-text-icon-default;
     content: "\ea47";
 }
 .sldsicon-utility-monthlyview:before {
+    color: $color-text-icon-default;
     content: "\ea48";
 }
 .sldsicon-utility-move:before {
+    color: $color-text-icon-default;
     content: "\ea49";
 }
 .sldsicon-utility-muted:before {
+    color: $color-text-icon-default;
     content: "\ea4a";
 }
 .sldsicon-utility-new_window:before {
+    color: $color-text-icon-default;
     content: "\ea4b";
 }
 .sldsicon-utility-new:before {
+    color: $color-text-icon-default;
     content: "\ea4c";
 }
 .sldsicon-utility-news:before {
+    color: $color-text-icon-default;
     content: "\ea4d";
 }
 .sldsicon-utility-notebook:before {
+    color: $color-text-icon-default;
     content: "\ea4e";
 }
 .sldsicon-utility-notification:before {
+    color: $color-text-icon-default;
     content: "\ea4f";
 }
 .sldsicon-utility-office365:before {
+    color: $color-text-icon-default;
     content: "\ea50";
 }
 .sldsicon-utility-offline:before {
+    color: $color-text-icon-default;
     content: "\ea51";
 }
 .sldsicon-utility-open_folder:before {
+    color: $color-text-icon-default;
     content: "\ea52";
 }
 .sldsicon-utility-open:before {
+    color: $color-text-icon-default;
     content: "\ea53";
 }
 .sldsicon-utility-opened_folder:before {
+    color: $color-text-icon-default;
     content: "\ea54";
 }
 .sldsicon-utility-package_org_beta:before {
+    color: $color-text-icon-default;
     content: "\ea55";
 }
 .sldsicon-utility-package_org:before {
+    color: $color-text-icon-default;
     content: "\ea56";
 }
 .sldsicon-utility-package:before {
+    color: $color-text-icon-default;
     content: "\ea57";
 }
 .sldsicon-utility-page:before {
+    color: $color-text-icon-default;
     content: "\ea58";
 }
 .sldsicon-utility-palette:before {
+    color: $color-text-icon-default;
     content: "\ea59";
 }
 .sldsicon-utility-paste:before {
+    color: $color-text-icon-default;
     content: "\ea5a";
 }
 .sldsicon-utility-people:before {
+    color: $color-text-icon-default;
     content: "\ea5b";
 }
 .sldsicon-utility-phone_landscape:before {
+    color: $color-text-icon-default;
     content: "\ea5c";
 }
 .sldsicon-utility-phone_portrait:before {
+    color: $color-text-icon-default;
     content: "\ea5d";
 }
 .sldsicon-utility-photo:before {
+    color: $color-text-icon-default;
     content: "\ea5e";
 }
 .sldsicon-utility-power:before {
+    color: $color-text-icon-default;
     content: "\ea5f";
 }
 .sldsicon-utility-preview:before {
+    color: $color-text-icon-default;
     content: "\ea60";
 }
 .sldsicon-utility-priority:before {
+    color: $color-text-icon-default;
     content: "\ea61";
 }
 .sldsicon-utility-process:before {
+    color: $color-text-icon-default;
     content: "\ea62";
 }
 .sldsicon-utility-push:before {
+    color: $color-text-icon-default;
     content: "\ea63";
 }
 .sldsicon-utility-puzzle:before {
+    color: $color-text-icon-default;
     content: "\ea64";
 }
 .sldsicon-utility-question:before {
+    color: $color-text-icon-default;
     content: "\ea65";
 }
 .sldsicon-utility-questions_and_answers:before {
+    color: $color-text-icon-default;
     content: "\ea66";
 }
 .sldsicon-utility-record:before {
+    color: $color-text-icon-default;
     content: "\ea67";
 }
 .sldsicon-utility-redo:before {
+    color: $color-text-icon-default;
     content: "\ea68";
 }
 .sldsicon-utility-refresh:before {
+    color: $color-text-icon-default;
     content: "\ea69";
 }
 .sldsicon-utility-relate:before {
+    color: $color-text-icon-default;
     content: "\ea6a";
 }
 .sldsicon-utility-remove_formatting:before {
+    color: $color-text-icon-default;
     content: "\ea6b";
 }
 .sldsicon-utility-remove_link:before {
+    color: $color-text-icon-default;
     content: "\ea6c";
 }
 .sldsicon-utility-replace:before {
+    color: $color-text-icon-default;
     content: "\ea6d";
 }
 .sldsicon-utility-reply:before {
+    color: $color-text-icon-default;
     content: "\ea6e";
 }
 .sldsicon-utility-reset_password:before {
+    color: $color-text-icon-default;
     content: "\ea6f";
 }
 .sldsicon-utility-retweet:before {
+    color: $color-text-icon-default;
     content: "\ea70";
 }
 .sldsicon-utility-richtextbulletedlist:before {
+    color: $color-text-icon-default;
     content: "\ea71";
 }
 .sldsicon-utility-richtextindent:before {
+    color: $color-text-icon-default;
     content: "\ea72";
 }
 .sldsicon-utility-richtextnumberedlist:before {
+    color: $color-text-icon-default;
     content: "\ea73";
 }
 .sldsicon-utility-richtextoutdent:before {
+    color: $color-text-icon-default;
     content: "\ea74";
 }
 .sldsicon-utility-right_align_text:before {
+    color: $color-text-icon-default;
     content: "\ea75";
 }
 .sldsicon-utility-right:before {
+    color: $color-text-icon-default;
     content: "\ea76";
 }
 .sldsicon-utility-rotate:before {
+    color: $color-text-icon-default;
     content: "\ea77";
 }
 .sldsicon-utility-rows:before {
+    color: $color-text-icon-default;
     content: "\ea78";
 }
 .sldsicon-utility-salesforce1:before {
+    color: $color-text-icon-default;
     content: "\ea79";
 }
 .sldsicon-utility-search:before {
+    color: $color-text-icon-default;
     content: "\ea7a";
 }
 .sldsicon-utility-settings:before {
+    color: $color-text-icon-default;
     content: "\ea7b";
 }
 .sldsicon-utility-setup_assistant_guide:before {
+    color: $color-text-icon-default;
     content: "\ea7c";
 }
 .sldsicon-utility-setup:before {
+    color: $color-text-icon-default;
     content: "\ea7d";
 }
 .sldsicon-utility-share:before {
+    color: $color-text-icon-default;
     content: "\ea7e";
 }
 .sldsicon-utility-shield:before {
+    color: $color-text-icon-default;
     content: "\ea7f";
 }
 .sldsicon-utility-side_list:before {
+    color: $color-text-icon-default;
     content: "\ea80";
 }
 .sldsicon-utility-signpost:before {
+    color: $color-text-icon-default;
     content: "\ea81";
 }
 .sldsicon-utility-sms:before {
+    color: $color-text-icon-default;
     content: "\ea82";
 }
 .sldsicon-utility-snippet:before {
+    color: $color-text-icon-default;
     content: "\ea83";
 }
 .sldsicon-utility-socialshare:before {
+    color: $color-text-icon-default;
     content: "\ea84";
 }
 .sldsicon-utility-sort:before {
+    color: $color-text-icon-default;
     content: "\ea85";
 }
 .sldsicon-utility-spinner:before {
+    color: $color-text-icon-default;
     content: "\ea86";
 }
 .sldsicon-utility-standard_objects:before {
+    color: $color-text-icon-default;
     content: "\ea87";
 }
 .sldsicon-utility-stop:before {
+    color: $color-text-icon-default;
     content: "\ea88";
 }
 .sldsicon-utility-strikethrough:before {
+    color: $color-text-icon-default;
     content: "\ea89";
 }
 .sldsicon-utility-success:before {
+    color: $color-text-icon-default;
     content: "\ea8a";
 }
 .sldsicon-utility-summary:before {
+    color: $color-text-icon-default;
     content: "\ea8b";
 }
 .sldsicon-utility-summarydetail:before {
+    color: $color-text-icon-default;
     content: "\ea8c";
 }
 .sldsicon-utility-switch:before {
+    color: $color-text-icon-default;
     content: "\ea8d";
 }
 .sldsicon-utility-table:before {
+    color: $color-text-icon-default;
     content: "\ea8e";
 }
 .sldsicon-utility-tablet_landscape:before {
+    color: $color-text-icon-default;
     content: "\ea8f";
 }
 .sldsicon-utility-tablet_portrait:before {
+    color: $color-text-icon-default;
     content: "\ea90";
 }
 .sldsicon-utility-text_background_color:before {
+    color: $color-text-icon-default;
     content: "\ea91";
 }
 .sldsicon-utility-text_color:before {
+    color: $color-text-icon-default;
     content: "\ea92";
 }
 .sldsicon-utility-threedots:before {
+    color: $color-text-icon-default;
     content: "\ea93";
 }
 .sldsicon-utility-tile_card_list:before {
+    color: $color-text-icon-default;
     content: "\ea94";
 }
 .sldsicon-utility-topic:before {
+    color: $color-text-icon-default;
     content: "\ea95";
 }
 .sldsicon-utility-trail:before {
+    color: $color-text-icon-default;
     content: "\ea96";
 }
 .sldsicon-utility-undelete:before {
+    color: $color-text-icon-default;
     content: "\ea97";
 }
 .sldsicon-utility-undeprecate:before {
+    color: $color-text-icon-default;
     content: "\ea98";
 }
 .sldsicon-utility-underline:before {
+    color: $color-text-icon-default;
     content: "\ea99";
 }
 .sldsicon-utility-undo:before {
+    color: $color-text-icon-default;
     content: "\ea9a";
 }
 .sldsicon-utility-unlock:before {
+    color: $color-text-icon-default;
     content: "\ea9b";
 }
 .sldsicon-utility-unmuted:before {
+    color: $color-text-icon-default;
     content: "\ea9c";
 }
 .sldsicon-utility-up:before {
+    color: $color-text-icon-default;
     content: "\ea9d";
 }
 .sldsicon-utility-upload:before {
+    color: $color-text-icon-default;
     content: "\ea9e";
 }
 .sldsicon-utility-user:before {
+    color: $color-text-icon-default;
     content: "\ea9f";
 }
 .sldsicon-utility-volume_high:before {
+    color: $color-text-icon-default;
     content: "\eaa0";
 }
 .sldsicon-utility-volume_low:before {
+    color: $color-text-icon-default;
     content: "\eaa1";
 }
 .sldsicon-utility-volume_off:before {
+    color: $color-text-icon-default;
     content: "\eaa2";
 }
 .sldsicon-utility-warning:before {
+    color: $color-text-icon-default;
     content: "\eaa3";
 }
 .sldsicon-utility-weeklyview:before {
+    color: $color-text-icon-default;
     content: "\eaa4";
 }
 .sldsicon-utility-world:before {
+    color: $color-text-icon-default;
     content: "\eaa5";
 }
 .sldsicon-utility-zoomin:before {
+    color: $color-text-icon-default;
     content: "\eaa6";
 }
 .sldsicon-utility-zoomout:before {
+    color: $color-text-icon-default;
     content: "\eaa7";
 }
 

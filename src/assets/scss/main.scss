@@ -1,8 +1,35 @@
 @import "../../../bower_components/salesforce-lightning-design-system/scss/index.scss";
+@import "../../../bower_components/salesforce-lightning-design-system/scss/design-tokens.scss";
 
 @import "slds-icon-fonts";
 @import "typography";
 
-[class^="sldsicon-"], [class*=" sldsicon-"] {
-    font-size: 2rem;
+html {
+    color: $color-text-default;
+}
+
+.icon-container {
+    display: inline-block;
+    margin: .5rem;
+    text-align: center;
+
+    .icon {
+        display: block;
+    }
+}
+
+.icon {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.icon-input {
+    border: 0;
+    border-bottom: 1px solid $color-border-input;
+    font-size: .65rem;
+    display: inline-block;
+    outline: thin;
+    padding: .5rem;
+    text-align: center;
+    width: 220px;
 }
