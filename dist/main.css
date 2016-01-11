@@ -9195,8 +9195,8 @@ html {
     z-index: 100; }
 
 .icon-container {
-  margin: .5rem;
-  text-align: center; }
+  margin: .5rem .5rem -39px;
+  position: relative; }
   .icon-container .icon {
     display: block; }
   .icon-container.active .icon-tooltip {
@@ -9210,15 +9210,30 @@ html {
 .icon-input {
   border: 0;
   border-bottom: 1px solid #d8dde6;
-  font-size: .65rem;
+  font-size: .75rem;
   display: inline-block;
   outline: thin;
-  padding: .5rem;
-  text-align: center;
-  min-width: 200px; }
+  padding: .5rem 0;
+  min-width: 15rem; }
 
 .icon-tooltip {
   margin: 0 auto;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out; }
+
+.icon-layout--default .icon {
+  padding: .5rem 0;
+  position: absolute; }
+
+.icon-layout--default .icon-input {
+  padding-left: 2rem;
+  text-align: left; }
+
+.icon-layout--medium, .icon-layout--large, .icon-layout--xx-large {
+  text-align: center; }
+  .icon-layout--medium .icon, .icon-layout--large .icon, .icon-layout--xx-large .icon {
+    position: static; }
+  .icon-layout--medium .icon-input, .icon-layout--large .icon-input, .icon-layout--xx-large .icon-input {
+    padding: .5rem 0;
+    text-align: center; }

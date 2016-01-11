@@ -28,6 +28,11 @@
             }
         ];
         $scope.size = $scope.sizes[2];
+        $scope.selectedTab = 0;
+
+        // methods
+        $scope.selectTab        = selectTab;
+        $scope.getSizeClassName = getSizeClassName;
 
         IconFactory.getIconFonts()
         .then(function (response) {
@@ -37,5 +42,25 @@
                 $scope.isLoading = false;
             }, 1000);
         });
+
+        function selectTab(tab) {
+            $scope.selectedTab = tab;
+        }
+
+        function getSizeClassName() {
+            if ($scope.size.value === 2) {
+                return 'icon-layout--medium';
+            }
+
+            if ($scope.size.value === 3) {
+                return 'icon-layout--large';
+            }
+
+            if ($scope.size.value === 4) {
+                return 'icon-layout--xx-large';
+            }
+
+            return 'icon-layout--default';
+        }
     }
 }());
