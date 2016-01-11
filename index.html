@@ -20,7 +20,7 @@
             <h1 class="slds-text-heading--large"><abbr title="Salesforce Lightning Design System">SLDS</abbr> Icon Fonts</h1>
 
             <div class="slds-form-element">
-                <label class="slds-form-element__label" for="selectSample1">Select Size</label>
+                <label class="slds-form-element__label" for="selectSample1">Change Size</label>
                 <div class="slds-form-element__control">
                     <div class="slds-select_container">
                         <select id="selectSample1" class="slds-select"
@@ -31,17 +31,31 @@
                 </div>
             </div>
 
-            <article class="icon-group" id="{{ group.icons[0].category }}"
-                  ng-repeat="group in iconGroup">
-                  <h2 class="slds-text-heading--medium slds-m-vertical--large">{{ group.category }}</h2>
-                  <div class="slds-grid slds-grid--align-center slds-wrap">
-                        <div class="icon-container slds-col"
-                              icon-font
-                              obj="icon"
-                              size="size.value"
-                              ng-repeat="icon in group.icons"></div>
-                  </div>
-            </article>
+            <div class="slds-tabs--default"
+                ng-show="iconGroup.length > 0">
+                <ul class="slds-tabs--default__nav" role="tablist">
+                    <li class="slds-tabs--default__item slds-text-heading--label" title="Item One" role="presentation"
+                        ng-repeat="group in iconGroup"
+                        ng-class="selectedTab === $index ? 'slds-active' : ''">
+                        <a class="slds-tabs--default__link" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-{{ $index }}__item"
+                            ng-click="selectTab($index)">{{ group.category }}</a>
+                    </li>
+                </ul>
+                <article class="icon-group" id="tab-default-{{ $index }}"
+                    role="tabpanel" aria-labelledby="tab-default-{{ $index }}__item"
+                    ng-repeat="group in iconGroup"
+                    ng-class="selectedTab === $index ? 'slds-show' : 'slds-hide'">
+                      <h2 class="slds-text-heading--medium slds-m-vertical--large">{{ group.category }}</h2>
+                      <div class="slds-grid slds-grid--align-center slds-wrap">
+                            <div class="icon-container slds-col"
+                                ng-class="getSizeClassName()"
+                                icon-font
+                                obj="icon"
+                                size="size.value"
+                                ng-repeat="icon in group.icons"></div>
+                      </div>
+                </article>
+            </div>
         </main>
 
         <script src="dev/app.js"></script>
