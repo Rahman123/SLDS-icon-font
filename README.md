@@ -1,6 +1,6 @@
 # SLDS-icon-fonts
 
-[The Salesforce Lightning Design System (SLDS)](https://www.lightningdesignsystem.com/resources/icons "SLDS") currently offers a robust, abstract SVG icon system. However, there may be situations where an additional icon-font set would be helpful.
+The [Salesforce Lightning Design System (SLDS Icons)](https://www.lightningdesignsystem.com/resources/icons "SLDS"), created by [Salesforce](http://www.salesforce.com/), currently offers a very robust and flexible SVG icon system. However, there may be situations where an additional icon-font set would enhance the design system.
 
 Well, here it is.
 
@@ -32,3 +32,6 @@ There are a couple of options here:
 2. `gulp`
 3. `gulp serve`
 4. Make your local edits and submit a pull request.
+
+#### Attribution
+This icon font is being released as a redistribution of the original set of icons created by [Salesforce](http://www.salesforce.com/) for the [Salesforce Lightning Design System](http://lightningdesignsystem.com). As a redistribution of the original work in a new format, this work&mdash;provided free of charge by CodeScience&mdash;carries with it the same [CreativeCommons-Attribution-NoDerivatives](http://creativecommons.org/licenses/by-nd/4.0/) license as the original work.
