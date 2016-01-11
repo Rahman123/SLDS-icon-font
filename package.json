@@ -1,5 +1,5 @@
 {
-  "name": "SLDS-icon-font",
+  "name": "slds-icon-font",
   "version": "0.0.1",
   "description": "Icon font version of Salesforce Lighting Design System SVGs",
   "main": "index.js",
