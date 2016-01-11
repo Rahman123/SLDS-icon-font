@@ -300,12 +300,39 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
     angular.module('app', [])
         .controller('AppController', AppController);
 
-    function AppController($log, $scope, IconService) {
+    function AppController($log, $scope, $timeout, IconFactory) {
         var vm = this;
 
-        $scope.iconGroup = IconService;
+        $scope.isLoading = true;
+        $scope.iconGroup = [];
+        $scope.sizes = [
+            {
+                label: '1x',
+                value: 1
+            },
+            {
+                label: '2x',
+                value: 2
+            },
+            {
+                label: '3x',
+                value: 3
+            },
+            {
+                label: '4x',
+                value: 4
+            }
+        ];
+        $scope.size = $scope.sizes[2];
 
+        IconFactory.getIconFonts()
+        .then(function (response) {
+            $scope.iconGroup = response;
 
+            $timeout(function () {
+                $scope.isLoading = false;
+            }, 1000);
+        });
     }
 }());
 (function () {
@@ -317,7 +344,8 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
     function iconFont($log, $timeout) {
         return {
             scope: {
-                obj: '='
+                obj: '=',
+                size: '='
             },
             templateUrl: 'components/icon-font/icon-font.html',
             link: link
@@ -331,11 +359,12 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
             scope.copyText = copyText;
 
             function copyText() {
+                $input.select();
+
                 if (typeof document.execCommand !== 'function') {
                     return;
                 }
 
-                $input.select();
                 document.execCommand('copy');
                 popMessage();
             }
@@ -353,12 +382,11 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
 (function () {
     'use strict';
 
-    angular.module('app')
-        .service('IconService', IconService);
+     angular.module('app')
+        .factory('IconFactory', IconFactory);
 
-    function IconService() {
-        var data = [
-            {
+     function IconFactory($q, $timeout) {
+          var data = [{
                 "category": "Action Icons",
                 "icons": [
                     { "category": "action", "name": "add_contact" },
@@ -958,8 +986,21 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
                     { "category": "utility", "name": "zoomin" },
                     { "category": "utility", "name": "zoomout" }
                 ]
-            }
-        ];
+          }];
+
+          return {
+               getIconFonts: getIconFonts
+          };
+
+          function getIconFonts() {
+               var deferred = $q.defer();
+
+               $timeout(function () {
+                    deferred.resolve(data);
+               }, 1000);
+
+               return deferred.promise;
+          }
 
         return data;
     }
