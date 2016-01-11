@@ -9181,8 +9181,20 @@ html {
 html {
   color: #16325c; }
 
+.spinny-gif__container {
+  margin-left: -34px;
+  margin-top: -34px;
+  opacity: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transition: opacity 0.1s ease-in-out; }
+  .spinny-gif__container.active {
+    opacity: 1;
+    z-index: 100; }
+
 .icon-container {
-  display: inline-block;
   margin: .5rem;
   text-align: center; }
   .icon-container .icon {
@@ -9203,7 +9215,7 @@ html {
   outline: thin;
   padding: .5rem;
   text-align: center;
-  width: 220px; }
+  min-width: 200px; }
 
 .icon-tooltip {
   margin: 0 auto;

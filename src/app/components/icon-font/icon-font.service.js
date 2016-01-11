@@ -1,12 +1,11 @@
 (function () {
     'use strict';
 
-    angular.module('app')
-        .service('IconService', IconService);
+     angular.module('app')
+        .factory('IconFactory', IconFactory);
 
-    function IconService() {
-        var data = [
-            {
+     function IconFactory($q, $timeout) {
+          var data = [{
                 "category": "Action Icons",
                 "icons": [
                     { "category": "action", "name": "add_contact" },
@@ -606,8 +605,21 @@
                     { "category": "utility", "name": "zoomin" },
                     { "category": "utility", "name": "zoomout" }
                 ]
-            }
-        ];
+          }];
+
+          return {
+               getIconFonts: getIconFonts
+          };
+
+          function getIconFonts() {
+               var deferred = $q.defer();
+
+               $timeout(function () {
+                    deferred.resolve(data);
+               }, 1000);
+
+               return deferred.promise;
+          }
 
         return data;
     }

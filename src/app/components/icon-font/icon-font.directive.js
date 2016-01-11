@@ -7,7 +7,8 @@
     function iconFont($log, $timeout) {
         return {
             scope: {
-                obj: '='
+                obj: '=',
+                size: '='
             },
             templateUrl: 'components/icon-font/icon-font.html',
             link: link
