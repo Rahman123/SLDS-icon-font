@@ -28,7 +28,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('assets', function () {
-    return gulp.src('bower_components/salesforce-lightning-design-system/assets/**/*')
+    return gulp.src('node_modules/@salesforce-ux/design-system/assets/**/*')
         .pipe(gulp.dest('dist/assets'));
 });
 
@@ -39,7 +39,7 @@ gulp.task('icon-fonts', function () {
 
 gulp.task('scripts', function () {
     return gulp.src([
-            'bower_components/angular/angular.min.js',
+            'node_modules/angular/angular.min.js',
             'src/app/app.js',
             'src/app/components/icon-font/icon-font.directive.js',
             'src/app/components/icon-font/icon-font.service.js'

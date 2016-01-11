@@ -12,6 +12,10 @@
   },
   "keywords": [
     "SLDS",
+    "Salesforce",
+    "Salesforce Lightning Design System",
+    "Lightning Design System",
+    "icon fonts",
     "icon-fonts"
   ],
   "author": "Matthew Turnure",
@@ -21,6 +25,8 @@
   },
   "homepage": "https://github.com/CodeScience/SLDS-icon-fonts",
   "devDependencies": {
+    "@salesforce-ux/design-system": "^0.12.1",
+    "angular": "^1.4.8",
     "browser-sync": "^2.11.0",
     "del": "^2.2.0",
     "gulp": "^3.9.0",
