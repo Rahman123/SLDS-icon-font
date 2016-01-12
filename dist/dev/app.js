@@ -329,6 +329,7 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
         // methods
         $scope.selectTab        = selectTab;
         $scope.getSizeClassName = getSizeClassName;
+        $scope.clearSearch      = clearSearch;
 
         IconFactory.getIconFonts()
         .then(function (response) {
@@ -357,6 +358,15 @@ negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=
             }
 
             return 'icon-layout--default';
+        }
+
+        function clearSearch() {
+            $scope.isLoading = true;
+            $scope.keywords = '';
+
+            $timeout(function () {
+                $scope.isLoading = false;
+            }, 1000);
         }
     }
 }());

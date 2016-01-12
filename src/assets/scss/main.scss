@@ -8,6 +8,42 @@ html {
     color: $color-text-default;
 }
 
+.search-form {
+    margin: 21px auto;
+    max-width: 480px;
+    position: relative;
+
+    input[type=search] {
+        text-align: center;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+.search-form-action {
+    margin-top: -.5rem;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.search-form-action--right {
+    @extend .search-form-action;
+
+    left: inherit;
+    right: 9px;
+}
+
+.search-form-icon {
+    font-size: 1rem;
+}
+
+.header-form-size {
+    position: absolute;
+    right: 1rem;
+    top: 18px;
+}
+
 .spinny-gif__container {
     margin-left: -34px;
     margin-top: -34px;

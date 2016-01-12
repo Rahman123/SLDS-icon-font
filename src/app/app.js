@@ -33,6 +33,7 @@
         // methods
         $scope.selectTab        = selectTab;
         $scope.getSizeClassName = getSizeClassName;
+        $scope.clearSearch      = clearSearch;
 
         IconFactory.getIconFonts()
         .then(function (response) {
@@ -61,6 +62,15 @@
             }
 
             return 'icon-layout--default';
+        }
+
+        function clearSearch() {
+            $scope.isLoading = true;
+            $scope.keywords = '';
+
+            $timeout(function () {
+                $scope.isLoading = false;
+            }, 1000);
         }
     }
 }());
