@@ -9178,8 +9178,38 @@ html {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
+.main-heading {
+  margin-bottom: 1rem; }
+
 html {
   color: #16325c; }
+
+.search-form {
+  margin: 21px auto;
+  max-width: 480px;
+  position: relative; }
+  .search-form input[type=search] {
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px; }
+
+.search-form-action, .search-form-action--right {
+  margin-top: -.5rem;
+  position: absolute;
+  top: 50%;
+  left: 10px; }
+
+.search-form-action--right {
+  left: inherit;
+  right: 9px; }
+
+.search-form-icon {
+  font-size: 1rem; }
+
+.header-form-size {
+  position: absolute;
+  right: 1rem;
+  top: 18px; }
 
 .spinny-gif__container {
   margin-left: -34px;
