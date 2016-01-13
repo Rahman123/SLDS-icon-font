@@ -7,7 +7,7 @@ Well, here it is.
 This icon font set is based on the SLDS SVG set (version 0.10.1) and generated using [Icomoon](https://icomoon.io/ "Icomoon").
 
 ## Basic Usage
-add prefix `.sldsicon-` then follow this naming scheme: `[categoryName]-[fontName]`.
+On an empty inline element, add the class name of the respective icon. The naming scheme goes like this: `sldsicon-[categoryName]-[fontName]`. After the `sldsicon` prefix, the naming convention is similar to the one located in the [SLDS docs](https://www.lightningdesignsystem.com/resources/icons "SLDS").
 
 Example: `<i class="sldsicon-utility-add"></i>`.
 
